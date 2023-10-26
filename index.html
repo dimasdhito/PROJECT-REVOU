@@ -11,21 +11,44 @@
         <div class="nav-logo">
             <img src="./assets/revou.jpeg" alt="revou-logo">
         </div>
-        <nav class="nav">
-            <div class="nav-item">HOME</div>
-            <div class="nav-item">Our Profile</div>
-            <div class="nav-item">Portofolio</div>
-            <div class="nav-item">Message Us</div>
+        <nav class="nav" id="navbar">
+            <a style="text-decoration:none;" href="#home">
+                <div class="nav-item">Home</div>
+            </a>
+            <a style="text-decoration:none;" href="#about">
+                <div class="nav-item">Our Profile</div>
+            </a>
+            <a style="text-decoration:none;" href="#porto">
+                <div class="nav-item">Portofolio</div>
+            </a>
+            <a style="text-decoration:none;" href="#form">
+                <div class="nav-item">Message Us</div>
+            </a>
         </nav>
     </header>
-    <section class="banner">
+    <section id="home" class="banner">
         <div class="greetings">
-            <h1 id="greeting">Hi, Welcome to this website</h1>
-            <p>Ini adalah latihan website pertama</p>
+            <h1 id="greeting">Hi, Welcome to the website</h1>
+            <h3>Ini adalah latihan website pertama</h3>
         </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-content">
+            <h1>About RevoU</h1>
+            <p>Join Indonesia’s Largest Live Online Learning Community with RevoU
+                Recession Proof your Career by learning the most valuable digital skills from the Best in the Industry.
+                100% Live Online Classes, Career Mentors, and Lifelong Community support to unlock endless
+                opportunities.
+                550,000+ Peers to network and learn with, 400+ Industry mentors to inspire you, 2500+
+                Companies our alumni work at, 93% Program completion rate (highest in the industry), 100%
+                Live classes learning experience.
+            </p>
+        </div>
+        <img src="./assets/modern-woman-copyspace_23-2148131686.avif" alt="girl-photo">
     </section>
     <section class="headquarters">
         <h1>Our Head Quarters</h1>
+        <h3>We have several headquarters across Java and more to come.</h3>
         <div class="hq-items">
             <div class="hq-item">
                 <div class="circle-jkt"></div>
@@ -41,7 +64,23 @@
             </div>
         </div>
     </section>
-    <section class="form">
+    <section id="porto" class="portfolio">
+        <h1>Our Portfolio</h1>
+        <h3>Below you can find our beautiful past works</h3>
+        <div class="porto-items">
+            <div class="porto-item">
+                <div class="project1"></div>
+                <h3> Netflix Landing Page</h3>
+                <p>A clone of the widely used Netflix Page</p>
+            </div>
+            <div class="porto-item">
+                <div class="project2"></div>
+                <h3>Personal Project Portfolio</h3>
+                <p>A Personal portfolio website that can be used to showcase all works</p>
+            </div>
+        </div>
+    </section>
+    <section id="form" class="form">
         <h1>Message Us</h1>
         <div class="container">
             <div class="form-input">

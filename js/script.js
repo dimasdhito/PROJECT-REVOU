@@ -1,3 +1,4 @@
+
 // Ambil elemen-elemen HTML yang diperlukan
 const form = document.querySelector('.form');
 const formOutput = document.getElementById('form-output');
@@ -16,7 +17,7 @@ function output() {
     let month = date.getMonth() + 1;
     let year = date.getFullYear();
 
-    let currentDate = `${day}/${month}/${year}`;
+    let currentDate = `${day}-${month}-${year}`;
 
     // Buat pesan yang akan ditampilkan
     const outputMessage = `Today is ${currentDate}\n\nNama: ${nama}\nTanggal Lahir: ${tanggalLahir}\nJenis Kelamin: ${jenisKelamin}\nPesan: ${pesan}`;
